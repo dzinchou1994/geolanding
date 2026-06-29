@@ -8,6 +8,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1.0,
+      alternates: {
+        languages: {
+          ka: SITE_URL,
+          ru: SITE_URL,
+          en: SITE_URL,
+        },
+      },
     },
   ];
 }

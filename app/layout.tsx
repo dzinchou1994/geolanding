@@ -75,6 +75,10 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     images: ["/og-image.jpg"],
   },
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   other: {
     "content-language": "ka, ru, en",
   },

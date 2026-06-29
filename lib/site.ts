@@ -3,7 +3,7 @@ export const MAIN_SITE_URL =
   process.env.NEXT_PUBLIC_MAIN_SITE_URL || "https://kama.biz";
 
 export const SITE_TITLE =
-  "გეოესქორტი | ესკორტი საქართველოში | Escort Georgia | Эскорт Грузия | geoeskort.com";
+  "GeoEscort | ესკორტი საქართველოში | Escort Georgia | Эскорт Грузия | geoeskort.com";
 
 export const SITE_DESCRIPTION =
   "ესკორტი საქართველოში — ესკორტ გოგოები თბილისში, ბათუმსა და ქუთაისში. Escort Georgia, escort Tbilisi, escort Batumi, escort Kutaisi. Эскорт Грузия, эскорт Тбилиси, эскорт Батуми, эскорт Кутаиси. Premium escort service Georgia — verified profiles on kama.biz.";
