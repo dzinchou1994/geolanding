@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 import CTAButton from "@/components/CTAButton";
 import { MAIN_SITE_URL } from "@/lib/site";
 
@@ -25,6 +26,13 @@ export default function Footer() {
           ესკორტი, escort georgia, эскорт грузия, escort tbilisi, escort batumi,
           escort kutaisi, ესკორტ გოგოები, эскорт тбилиси, эскорт батуми
         </p>
+        <div className="mt-6 flex justify-center">
+          <div id="top-ge-counter-container" data-site-id="118610" />
+        </div>
+        <Script
+          src="https://counter.top.ge/counter.js"
+          strategy="lazyOnload"
+        />
       </div>
     </footer>
   );
