@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/((?!sitemap\\.xml|robots\\.txt|favicon\\.png|og-image\\.jpg|icon\\.png|_next).+)",
+      "destination": "https://geoeskort.com/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
